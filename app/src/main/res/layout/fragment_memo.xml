@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <Spinner
+        android:id="@+id/category"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_toStartOf="@+id/register"
+        android:entries="@array/category"/>
+    <!--Spinner의 속성 spinnerMode dialog로 설정해보기-->
+
+    <EditText
+        android:id="@+id/memo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category"
+        android:layout_toStartOf="@+id/register"
+        android:backgroundTint="@color/colorPrimary"
+        tools:text="메모 입력"/>
+
+    <ImageButton
+        android:id="@+id/register"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/recyclerView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:drawable/ic_menu_add" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/memo" />
+
+</RelativeLayout>

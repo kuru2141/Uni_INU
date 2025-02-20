@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/tab_chatbot"
+        android:enabled="true"
+        android:icon="@drawable/ic_chatbot"
+        android:title="유니챗"/>
+
+    <item
+        android:id="@+id/tab_ai"
+        android:enabled="true"
+        android:icon="@drawable/ic_ai"
+        android:title="건물 정보"/>
+
+    <item
+        android:id="@+id/tab_memo"
+        android:enabled="true"
+        android:icon="@drawable/ic_memo"
+        android:title="메모"/>
+</menu>

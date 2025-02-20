@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">유니InU</string>
+    <string name="image_description">Uploaded Image</string>
+    <string name="upload_button_text">Upload Image</string>
+
+
+    <string name="app_company">CHERRY</string>
+    <string name="button_register">등록</string>
+    <string name="msg_memo_input">메모를 입력해주세요</string>
+
+</resources>

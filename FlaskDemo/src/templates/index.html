@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Image Classifier</title>
+</head>
+<body>
+    <h1>Building Image Classifier</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".jpg, .jpeg, .png">
+        <input type="submit" value="Predict">
+    </form>
+    <div id="result"></div>
+
+    <script>
+        // 예측 결과를 비동기로 받아와서 화면에 표시
+        document.querySelector('form').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const formData = new FormData(this);
+
+            const response = await fetch('/predict', {
+                method: 'POST',
+                body: formData
+            });
+
+    0        const data = await response.json();
+            document.getElementById('result').innerText = `Predicted class: ${data.prediction}`;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/selected_cell_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#66BB6A"/> <!-- 배경색을 여기에 지정하세요 -->
+    <corners android:radius="4dp"/>
+</shape>
