@@ -21,6 +21,9 @@
 사용자는 학습된 AI 모델을 활용하여 학교 건물의 외형만으로 다양한 정보를 얻을 수 있다.
 인천대 공식 홈페이지 연결, 시간표, 메모장 기능을 통해 학교 생활에 필요한 모든 것을 하나의 어플리케이션에서 해결할 수 있다.
 
+[![Video Label](http://img.youtube.com/vi/Sdo3TaZb6nI/0.jpg)](https://youtu.be/Sdo3TaZb6nI)
+
+
 [인천대학교 졸업작품 발표회 - 유니InU.pdf](https://github.com/user-attachments/files/18888995/-.InU.pdf)
 
 https://www.ideaboom.net/project/project/view?seq=1620&comp_seq=94&search_keyword=%EC%9C%A0%EB%8B%88&data_seq[]=1&data_seq[]=2&data_seq[]=3&data_seq[]=4&data_seq[]=5&data_seq[]=6&data_seq[]=7&data_seq[]=8&data_seq[]=9&data_seq[]=10&data_seq[]=11&data_seq[]=12&data_seq[]=13&order=reg
